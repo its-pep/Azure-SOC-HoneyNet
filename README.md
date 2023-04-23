@@ -51,6 +51,10 @@ Stop Time  2023-04-20 21:32:58
 | SecurityIncident (Sentinel Incidents)| 219
 | NSG Inbound Malicious Flows Allowed             | 736
 
+## Security Posture Before Hardening
+![Security Posture Before](https://i.imgur.com/uc1DiZf.png)
+
+
 ## Attack Maps Before Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
@@ -68,6 +72,11 @@ Stop Time	 2023-04-23 13:34:06
 | SecurityAlert (Microsoft Defender for Cloud)| 0
 | SecurityIncident (Sentinel Incidents)| 0
 | NSG Inbound Malicious Flows Allowed| 0
+
+## Security Posture After Hardening
+![Security Posture After Hardening](https://i.imgur.com/9tX9ViJ.png)
+
+
 
 ## Overall Improvement
 
