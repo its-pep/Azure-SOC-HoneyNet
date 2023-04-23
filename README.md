@@ -43,13 +43,13 @@ The following table shows the metrics we measured in our insecure environment fo
 Start Time 2023-04-19 21:32:58
 Stop Time  2023-04-20 21:32:58
 
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 26214
-| Syslog                   | 3374
-| SecurityAlert            | 0
-| SecurityIncident         | 219
-| AzureNetworkAnalytics_CL | 736
+| Metric                               | Count
+| -------------------------------------| -----
+| SecurityEvent (Windows VM)           | 26214
+| Syslog (Linux VM)                    | 3374
+| SecurityAlert (Microsoft Defender for Cloud) | 0
+| SecurityIncident (Sentinel Incidents)| 219
+| NSG Inbound Malicious Flows Allowed             | 736
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -63,11 +63,21 @@ Stop Time	 2023-04-23 13:34:06
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 450
-| Syslog                   | 24
-| SecurityAlert            | 0
-| SecurityIncident         | 0
-| AzureNetworkAnalytics_CL | 0
+| SecurityEvent (Windows VM)| 450
+| Syslog (Linux VM)         | 24
+| SecurityAlert (Microsoft Defender for Cloud)| 0
+| SecurityIncident (Sentinel Incidents)| 0
+| NSG Inbound Malicious Flows Allowed| 0
+
+## Overall Improvement
+
+| Metric                   | Count
+| ------------------------ | -----
+| SecurityEvent (Windows VM)| -98.28%
+| Syslog (Linux VM)         | -99.29%
+| SecurityAlert (Microsoft Defender for Cloud)| -100%
+| SecurityIncident (Sentinel Incidents)| -100%
+| NSG Inbound Malicious Flows Allowed|-100%
 
 ## Conclusion
 
