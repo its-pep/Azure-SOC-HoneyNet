@@ -54,6 +54,11 @@ Stop Time  2023-04-20 21:32:58
 ## Security Posture Before Hardening
 ![Security Posture Before](https://i.imgur.com/uc1DiZf.png)
 
+## Hardening Steps
+The initial 24-hour study revealed that the lab was vulnerable to multiple threats due to its visibility on the public internet. To address these findings, I activated NIST SP 800-53 r4 within the compliance section of Microsoft Defender and focused on fulfilling the compliance standards associated with SC.7.*. Additional assessments for SC-7 - Boundary Protection.
+
+![SC.7](https://i.imgur.com/YkzdaTr.png)
+
 
 ## Attack Maps Before Hardening / Security Controls
 
